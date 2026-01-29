@@ -1,22 +1,10 @@
 ---
 name: arkts-syntax-assistant
 description: |-
-  ArkTS language learning and development assistant providing syntax reference,
-  TypeScript migration guidance, and high-performance programming practices.
-  Use when Claude needs help with: (1) Learning ArkTS basic syntax (declarations,
-  types, functions, classes, generics, modules), (2) Migrating from TypeScript
-  to ArkTS (syntax constraints, type system differences, incompatible features),
-  (3) ArkTS high-performance programming optimization (memory, loops, arrays,
-  exception handling), (4) Resolving ArkTS compile errors or runtime issues,
-  (5) Language-related questions in HarmonyOS/OpenHarmony application development.
-
-  ---
-  ArkTS 语言学习与开发助手，提供语法参考、TypeScript 迁移指导和高性能编程实践。
-  当用户需要以下帮助时使用此技能：(1) 学习 ArkTS 基础语法（声明、类型、函数、类、泛型、模块等）
-  (2) 从 TypeScript 迁移到 ArkTS（语法约束、类型系统差异、不兼容特性）
-  (3) ArkTS 高性能编程优化（内存、循环、数组、异常处理等）
-  (4) 解决 ArkTS 编译错误或运行时问题
-  (5) HarmonyOS/OpenHarmony 应用开发中的语言相关问题。
+  ArkTS syntax, migration, and optimization guide for HarmonyOS development.
+  Triggers on: .ets files, ArkTS keywords, HarmonyOS context.
+  Help with syntax reference, TypeScript migration, performance optimization,
+  compile errors, and language-specific questions.
 license: MIT
 tags:
   - arkts
