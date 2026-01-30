@@ -114,8 +114,8 @@ interface Person {
 
 | 平台 | 脚本 | 用途 |
 |------|------|------|
-| macOS/Linux | `scripts/run.sh` | 执行 `ohpm install` + `hvigorw assembleApp` |
-| Windows | `scripts/run.ps1` | 执行 `ohpm install` + `hvigorw assembleApp` |
+| macOS/Linux | `scripts/run.sh` | 执行 `ohpm install` + 构建项目（详见 [references/zh/e2e-build.md](references/zh/e2e-build.md)） |
+| Windows | `scripts/run.ps1` | 执行 `ohpm install` + 构建项目（详见 [references/zh/e2e-build.md](references/zh/e2e-build.md)） |
 
 使用方式：
 ```bash
