@@ -12,7 +12,7 @@ English | [简体中文](./README.md)
 
 > ArkTS language learning and development assistant providing syntax reference, TypeScript migration guidance, and high-performance programming practices
 
-This is a multi-platform ArkTS syntax assistant skill compatible with claude-code, opencode, cursor, trea, and other AI coding assistants. ArkTS is the default development language for OpenHarmony applications, built upon TypeScript with enhanced static typing to improve program stability and performance.
+This is an ArkTS syntax assistant skill designed for Claude Code. ArkTS is the default development language for OpenHarmony applications, built upon TypeScript with enhanced static typing to improve program stability and performance.
 
 ## Features
 
@@ -24,7 +24,7 @@ This is a multi-platform ArkTS syntax assistant skill compatible with claude-cod
 
 ## Development Tooling
 
-This skill can help your AI assistant easily write ArkTS code, but if you also need to write and modify code yourself and are troubled by the lack of Tab completion in DevEco Studio, feel free to install the ArkTS language support plugin in VSCode (and similar IDEs):
+This skill can help your AI agent easily write ArkTS code, but if you also need to write and modify code yourself, and are annoyed by the lack of tab completion in DevEco Studio, you're welcome to install the ArkTS language support plugin in VSCode (and similar IDEs):
 
 <div align="center">
 
@@ -34,17 +34,9 @@ This skill can help your AI assistant easily write ArkTS code, but if you also n
 </div>
 
 > [!NOTE]  
-> **[Naily's ArkTS Support](https://marketplace.visualstudio.com/items?itemName=NailyZero.vscode-naily-ets)** is an ArkTS language support plugin designed for VSCode, providing syntax highlighting, intelligent completion, and other features, allowing developers to enjoy a great ArkTS development experience in VSCode.
+> **[Naily's ArkTS Support](https://marketplace.visualstudio.com/items?itemName=NailyZero.vscode-naily-ets)** is a VSCode extension designed for ArkTS language support, providing syntax highlighting, intelligent completion, and other features that allow developers to enjoy a great ArkTS development experience in VSCode.
 
 ## Installation
-
-### Recommended: npx skills add (One-Command Installation)
-
-```bash
-npx skills add https://github.com/SummerKaze/skill-arkts-syntax-assistant.git
-```
-
-This is the simplest and fastest installation method, automatically downloading and configuring the skill.
 
 ### Method 1: Install via Release
 
@@ -55,7 +47,7 @@ This is the simplest and fastest installation method, automatically downloading 
 ### Method 2: Clone Repository
 
 ```bash
-cd ~/.claude/skills/
+cd ~/.cc-switch/skills/
 git clone https://github.com/SummerKaze/skill-arkts-syntax-assistant.git
 ```
 
