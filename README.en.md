@@ -38,6 +38,14 @@ This skill can help your AI agent easily write ArkTS code, but if you also need 
 
 ## Installation
 
+### Recommended: npx skills add (One-Command Installation)
+
+```bash
+npx skills add https://github.com/SummerKaze/skill-arkts-syntax-assistant.git
+```
+
+This is the simplest and fastest installation method, automatically downloading and configuring the skill.
+
 ### Method 1: Install via Release
 
 1. Visit the [Releases](https://github.com/SummerKaze/skill-arkts-syntax-assistant/releases) page
@@ -47,7 +55,7 @@ This skill can help your AI agent easily write ArkTS code, but if you also need 
 ### Method 2: Clone Repository
 
 ```bash
-cd ~/.cc-switch/skills/
+cd ~/.claude/skills/
 git clone https://github.com/SummerKaze/skill-arkts-syntax-assistant.git
 ```
 
